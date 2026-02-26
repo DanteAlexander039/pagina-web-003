@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Jobs · Proyectos y éxito</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+        }
+        body {
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .contenedor {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(145deg, #2c2c2e, #1c1c1e);
+            color: white;
+            padding: 2.5rem 2rem;
+            text-align: center;
+            border-bottom: 4px solid #ff9f0a;
+        }
+        header h1 {
+            font-size: 3.2rem;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.3rem;
+        }
+        header p {
+            font-size: 1.3rem;
+            color: #ff9f0a;
+            font-weight: 300;
+        }
+        nav {
+            background-color: #ffffff;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #e0e0e0;
+            text-align: center;
+            word-spacing: 12px;
+        }
+        nav a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.2rem;
+            margin: 0 12px;
+            padding: 6px 10px;
+            border-radius: 30px;
+            transition: all 0.2s;
+        }
+        nav a:hover {
+            background-color: #0066cc;
+            color: white;
+        }
+        section {
+            padding: 2.5rem 2rem;
+        }
+        .grid-logros {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0 1rem;
+        }
+        .tarjeta {
+            background: #fafafc;
+            border-radius: 28px;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+            border: 1px solid #eaeaea;
+            transition: all 0.2s;
+        }
+        .tarjeta:hover {
+            transform: translateY(-6px);
+            border-color: #ff9f0a;
+            box-shadow: 0 20px 28px -12px rgba(255,159,10,0.2);
+        }
+        .tarjeta h3 {
+            font-size: 1.9rem;
+            margin-bottom: 0.8rem;
+            color: #b1520c;
+        }
+        .tarjeta p {
+            color: #2c2c2e;
+            margin-bottom: 1.2rem;
+        }
+        .tarjeta img {
+            width: 100%;
+            max-height: 160px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-top: 1rem;
+            border: 1px solid #ccc;
+        }
+        .leccion {
+            background: #f0f0f2;
+            border-radius: 30px;
+            padding: 2rem 2rem;
+            margin: 2.5rem 0 1rem;
+            border-left: 10px solid #ff9f0a;
+        }
+        .leccion h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .leccion p {
+            font-size: 1.2rem;
+        }
+        footer {
+            background-color: #2c2c2e;
+            color: #f2f2f7;
+            padding: 2rem;
+            text-align: center;
+            border-top: 3px solid #ff9f0a;
+            margin-top: 0;
+        }
+        .info-footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .info-footer div {
+            background: #3a3a3c;
+            padding: 0.8rem 1.6rem;
+            border-radius: 60px;
+            font-size: 1.1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        footer p {
+            margin-top: 1.5rem;
+            opacity: 0.8;
+            font-size: 0.95rem;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>El iCono</h1>
+            <h2>Proyectos Clave de un iluminado</h2>
+            <h3>De la manzana mordida a la fruta prohibida</h3>
+            <p>Proyectos clave y lecciones de éxito</p>
+        </header>
+
+        <nav>
+           <a href="Steveindex.html"> Introducción</a>
+            <a href="Stevevida.html"> Su vida</a>
+            <a href="Steveproyectos.html"> Proyectos</a>
+            <a href="Stevelegado.html"> Legado</a>
+        </nav>
+          
+            <div class="grid-logros">
+                <div class="tarjeta">
+                    <h3>Apple II</h3>
+                    <p>Tras la fundación de Apple Inc., uno de los primeros grandes éxitos fue la Apple II (1977). Este equipo destacó por ser una de las primeras computadoras personales producidas en masa con teclado integrado y gráficos a color.</p>
+                    <p>La Apple II no solo consolidó la viabilidad económica de Apple, sino que contribuyó decisivamente a popularizar la computación doméstica y educativa. Representó el tránsito de la informática como herramienta exclusiva de especialistas hacia un recurso accesible para el público general.</p>
+                    <img src="Apple_II-IMG_7064.jpg" alt="Apple II computer">
+                    <div class="pie-foto">Apple II computadora</div>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Macintosh</h3>
+                    <p>En 1984, Apple lanzó la Macintosh, un proyecto impulsado intensamente por Jobs. Su mayor innovación fue la incorporación de una interfaz gráfica de usuario (GUI) y el uso del mouse, elementos que simplificaron radicalmente la interacción con la máquina.</p>
+                    <p>El Macintosh introdujo una concepción distinta de la informática: centrada en la experiencia visual, la tipografía cuidada y la accesibilidad. Más que un producto, fue una declaración de principios sobre cómo debía sentirse la tecnología.</p>
+                    <img src="Apple_Macintosh_Plus_white_background_(cropped).jpg" alt="Macintosh">
+                    <div class="pie-foto">Macintosh Plus</div>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>iPhone</h3>
+                    <p>En 2007, bajo el liderazgo de Jobs, Apple presentó el iPhone. Este dispositivo integró teléfono, reproductor musical e internet en un solo aparato con pantalla táctil.</p>
+                    <p>El iPhone no solo redefinió la industria de la telefonía móvil, sino que inauguró la era de los smartphones modernos y de las aplicaciones móviles. Su impacto fue sistémico, transformó la comunicación, el comercio digital, el entretenimiento y la vida cotidiana a escala global.</p>
+                    <img src="Original-iPhone.jpg" alt="iPhone representación">
+                    <div class="pie-foto">iPhone Original</div>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Pixar</h3>
+                    <p>Más allá de la informática, Jobs incursionó en la industria cinematográfica al adquirir y desarrollar Pixar. Bajo su dirección estratégica, el estudio produjo películas pioneras como Toy Story, la primera película animada completamente por computadora.</p>
+                    <p>Pixar no solo revolucionó la animación digital, sino que demostró que la innovación tecnológica podía integrarse con narrativas profundamente humanas. Este emprendimiento evidenció la amplitud de la visión de Jobs. su interés no se limitaba a dispositivos electrónicos, sino a la creación de experiencias culturales significativas.</p>
+                    <img src="840_560 (1).jpeg" alt="Logo de Pixar">
+                    <div class="pie-foto">Pixar & Jobs</div>
+                </div>
+
+            </div>
+
+            <div class="leccion">
+                <h2>Proyectos y Emprendimientos</h2>
+                <p>La trayectoria empresarial de Steve Jobs estuvo marcada por una constante: la voluntad de transformar industrias completas a través de productos que combinaran innovación técnica, diseño sofisticado y una experiencia de usuario intuitiva. Sus proyectos no fueron simples lanzamientos comerciales, sino apuestas estratégicas que redefinieron paradigmas tecnológicos y culturales.</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="info-footer">
+                <div>Colegio Bilingue Nuestra Señora Del Rosario</div>
+                <div>Miguel Angel Rincon Fajardo</div>
+                <div>Curso: 1006</div>
+                <div>Especialisacion de Robotica</div>
+            </div>
+            <p>® Página creativa por DanteProductions S.A · Conmemoracion - Archivo Privado</p>
+        </footer>
+    </div>
+</body>
+</html>
